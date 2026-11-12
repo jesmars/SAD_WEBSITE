@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | A&amp;N Construction and Marble Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">A&amp;N</span>
+      <span><b>A&amp;N Construction</b><small>and Marble Works</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a><a href="services.html">Services</a><a href="about.html">About Us</a><a href="contact.html">Contact</a>
+      <a class="btn btn-sm btn-outline" href="account.html">Log in</a>
+      <a class="btn btn-sm btn-primary" href="account.html">Register</a>
+    </nav>
+  </header>
+
+  <!-- ===== 1. HERO SECTION ===== -->
+  <section class="hero">
+    <div>
+      <span class="eyebrow">Custom gate fabrication</span>
+      <h1>See your gate in 3D before we build it.</h1>
+      <p class="lead">Enter your preferences, preview an interactive 3D gate, get design suggestions and a transparent cost estimate, then track your order online.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="account.html#designs">Customize Your Gate</a>
+        <a class="btn btn-outline" href="services.html">View Services</a>
+      </div>
+    </div>
+    <!-- Sample 3D preview (static image in this prototype) -->
+    <div class="card preview-box">
+      <div class="preview-head"><span class="tag tag-blue">Interactive 3D preview</span><span class="note">Drag to rotate</span></div>
+      <img src="assets/gate-scroll.svg" alt="Sample ornamental scroll gate">
+    </div>
+  </section>
+
+  <!-- ===== 2. HOW IT WORKS (five project stages) ===== -->
+  <section class="section alt">
+    <div class="section-head">
+      <span class="eyebrow">How it works</span>
+      <h2>Five stages, tracked online</h2>
+      <p class="muted">Every stage change sends an automatic email to the customer.</p>
+    </div>
+    <div class="stages">
+      <div class="stage"><div class="dot">1</div><b>Inquiry</b><small>Request received</small></div>
+      <div class="stage"><div class="dot">2</div><b>Measuring</b><small>Site visit</small></div>
+      <div class="stage"><div class="dot">3</div><b>Fabrication</b><small>Gate is built</small></div>
+      <div class="stage"><div class="dot">4</div><b>Ready for Installation</b><small>Gate is finished</small></div>
+      <div class="stage"><div class="dot">5</div><b>Installed</b><small>Project complete</small></div>
+    </div>
+  </section>
+
+  <!-- ===== 3. SYSTEM HIGHLIGHTS ===== -->
+  <section class="section">
+    <div class="section-head"><span class="eyebrow">What the system offers</span><h2>Built around the customer</h2></div>
+    <div class="grid g4">
+      <div class="card"><div class="icon">3D</div><h3>3D Gate Preview</h3><p class="muted">Visualize type, material, color and pattern.</p></div>
+      <div class="card"><div class="icon">AI</div><h3>Design Suggestions</h3><p class="muted">Recommended styles for your size and taste.</p></div>
+      <div class="card"><div class="icon">₱</div><h3>Cost Estimate</h3><p class="muted">Automatic material list and baseline cost.</p></div>
+      <div class="card"><div class="icon">✉</div><h3>Order Tracking</h3><p class="muted">Online dashboard and email updates.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 4. COMPLETED GATE PROJECTS (portfolio) ===== -->
+  <section class="section alt">
+    <div class="section-head"><span class="eyebrow">Portfolio</span><h2>Completed gate projects</h2></div>
+    <div class="grid g4">
+      <div class="card card-photo"><img src="assets/gate-bars.svg" alt="Vertical bar swing gate"><p>Vertical bar swing gate</p></div>
+      <div class="card card-photo"><img src="assets/gate-lattice.svg" alt="Lattice swing gate"><p>Lattice swing gate</p></div>
+      <div class="card card-photo"><img src="assets/gate-slats.svg" alt="Horizontal slat gate"><p>Horizontal slat gate</p></div>
+      <div class="card card-photo"><img src="assets/gate-scroll.svg" alt="Ornamental scroll gate"><p>Ornamental scroll gate</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 5. CALL TO ACTION ===== -->
+  <section class="section">
+    <div class="cta">
+      <div><h2>Ready to start your gate project?</h2><p>Create an account and submit an inquiry with your gate preferences.</p></div>
+      <a class="btn btn-primary" href="contact.html">Submit an Inquiry</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-cols">
+      <div><h4>A&amp;N Construction and Marble Works</h4><p>Family-owned construction, metal fabrication and marble works. Custom gates designed with you, built by our own fabrication team.</p></div>
+      <div><h4>Quick Links</h4><p><a href="index.html">Home</a><br><a href="services.html">Services</a><br><a href="about.html">About Us</a><br><a href="contact.html">Contact</a><br><a href="admin.html">Admin</a></p></div>
+      <div><h4>Contact (sample details)</h4><p>Parañaque City, Metro Manila<br>Phone: +63 9XX XXX XXXX<br>Email: info@anconstruction.example</p></div>
+    </div>
+    <p class="copyright">© 2026 A&amp;N Construction and Marble Works · Prototype design for academic purposes</p>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script><script src="gate3d.js"></script><script src="app.js"></script>
+</body>
+</html>

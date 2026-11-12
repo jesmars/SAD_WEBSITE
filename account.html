@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Account | A&amp;N Construction and Marble Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="portal">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">A&amp;N</span><span><b style="font-size:14px">A&amp;N Construction</b><small>Customer portal</small></span></a>
+    <nav>
+      <a class="menu-item" href="#dashboard">Dashboard</a>
+      <a class="menu-item" href="#inquiries">My Inquiries</a>
+      <a class="menu-item" href="#designs">My Gate Designs</a>
+      <a class="menu-item" href="#quotes">Quotations</a>
+      <a class="menu-item" href="#tracking">Project Tracking</a>
+      <a class="menu-item" href="#notifications">Notifications</a>
+      <a class="menu-item" href="#profile">Profile</a>
+      <a class="menu-item logout" href="#" data-act="logout">Log out</a>
+    </nav>
+  </aside>
+  <main class="portal-main">
+    <section class="panel" id="dashboard"></section>
+    <section class="panel" id="inquiries"></section>
+    <section class="panel" id="designs"></section>
+    <section class="panel" id="quotes"></section>
+    <section class="panel" id="notifications"></section>
+    <section class="panel" id="profile"></section>
+  </main>
+</div>
+<div id="auth"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="gate3d.js"></script>
+<script src="app.js"></script>
+<script src="account.js"></script>
+</body>
+</html>

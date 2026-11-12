@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin | A&amp;N Construction and Marble Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<!-- Admin back office. Nothing below is shown until the admin logs in (see admin.js). -->
+<div class="portal" id="app" style="display:none">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">A&amp;N</span><span><b style="font-size:14px">A&amp;N Construction</b><small>Admin back office</small></span></a>
+    <nav>
+      <a class="menu-item" href="#overview">Overview</a>
+      <a class="menu-item" href="#projects">Projects &amp; Quotations</a>
+      <a class="menu-item" href="#inquiries">Inquiries</a>
+      <a class="menu-item" href="#prices">Material Prices</a>
+      <a class="menu-item" href="#users">User Accounts</a>
+      <a class="menu-item" href="#reports">Reports</a>
+      <a class="menu-item" href="#database">Database</a>
+      <a class="menu-item logout" href="#" data-act="logout">Log out</a>
+    </nav>
+  </aside>
+  <main class="portal-main">
+    <section class="panel" id="overview"></section>
+    <section class="panel" id="projects"></section>
+    <section class="panel" id="inquiries"></section>
+    <section class="panel" id="prices"></section>
+    <section class="panel" id="users"></section>
+    <section class="panel" id="reports"></section>
+    <section class="panel" id="database"></section>
+  </main>
+</div>
+<div id="auth"></div>
+<script src="app.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

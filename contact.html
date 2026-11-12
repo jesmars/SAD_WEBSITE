@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | A&amp;N Construction and Marble Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">A&amp;N</span>
+      <span><b>A&amp;N Construction</b><small>and Marble Works</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About Us</a><a href="contact.html" class="active">Contact</a>
+      <a class="btn btn-sm btn-outline" href="account.html">Log in</a>
+      <a class="btn btn-sm btn-primary" href="account.html">Register</a>
+    </nav>
+  </header>
+
+  <!-- ===== 1. PAGE BANNER ===== -->
+  <section class="banner">
+    <span class="eyebrow">Contact</span>
+    <h1>Let's talk about your gate</h1>
+    <p>Reach the shop, find our location, or send an inquiry.</p>
+  </section>
+
+  <section class="section contact-layout">
+    <div class="stack">
+      <!-- ===== 2. SHOP DETAILS ===== -->
+      <div class="card">
+        <h3 style="margin-bottom:14px">Shop details</h3>
+        <dl class="details">
+          <dt>Address</dt><dd>Parañaque City, Metro Manila</dd>
+          <dt>Phone</dt><dd>+63 9XX XXX XXXX</dd>
+          <dt>Email</dt><dd>info@anconstruction.example</dd>
+          <dt>Services</dt><dd>Custom gates · construction · marble works</dd>
+        </dl>
+        <p class="note" style="margin-top:12px">Sample contact details for the prototype.</p>
+      </div>
+      <!-- ===== 3. LOCATION MAP (sample illustration) ===== -->
+      <div class="card" style="padding:12px">
+        <svg class="map" viewBox="0 0 560 360" role="img" aria-label="Sample map of the shop location">
+          <rect width="560" height="360" fill="#efeadf"/>
+          <path d="M0,250 L560,150" stroke="#fff" stroke-width="22"/>
+          <path d="M0,250 L560,150" stroke="#e0b46b" stroke-width="3" stroke-dasharray="10 8"/>
+          <path d="M150,0 L220,360" stroke="#fff" stroke-width="16"/>
+          <path d="M380,0 L330,360" stroke="#fff" stroke-width="12"/>
+          <path d="M0,90 L560,70" stroke="#fff" stroke-width="9"/>
+          <path d="M0,320 L560,300" stroke="#fff" stroke-width="9"/>
+          <rect x="30" y="120" width="70" height="60" rx="6" fill="#d7e6cf"/>
+          <rect x="420" y="220" width="100" height="70" rx="6" fill="#d7e6cf"/>
+          <path d="M0,40 q120,40 250,10 t310,20" stroke="#bcd7ee" stroke-width="14" fill="none"/>
+          <g transform="translate(300,170)"><path d="M0,0 c-26,-30 -26,-62 0,-62 c26,0 26,32 0,62z" fill="#d92d20"/><circle cx="0" cy="-42" r="9" fill="#fff"/></g>
+          <rect x="318" y="96" width="196" height="34" rx="8" fill="#fff" stroke="#d8d2c7"/>
+          <text x="416" y="118" text-anchor="middle" font-family="Inter,Arial" font-size="13" font-weight="700" fill="#1d232b">A&amp;N Construction</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ===== 4. INQUIRY FORM ===== -->
+    <form class="card form-card" action="#" method="post">
+      <h2 style="font-size:24px;margin-bottom:4px">Send an inquiry</h2>
+      <p class="muted" style="margin-bottom:20px;font-size:14px">We will reply by email. New inquiries start at the <b>Inquiry</b> stage.</p>
+      <div class="form-row">
+        <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Juan Dela Cruz" required></div>
+        <div class="field"><label for="phone">Contact number</label><input id="phone" name="phone" type="tel" placeholder="09XX XXX XXXX"></div>
+      </div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="juan@example.com" required></div>
+      <div class="form-row">
+        <div class="field"><label for="type">Gate type</label>
+          <select id="type" name="type"><option>Swing gate</option><option>Sliding gate</option><option>Folding gate</option></select></div>
+        <div class="field"><label for="pattern">Preferred pattern</label>
+          <select id="pattern" name="pattern"><option>Vertical bars</option><option>Lattice</option><option>Horizontal slats</option><option>Ornamental scroll</option></select></div>
+      </div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about the gate you need and where it will be installed…"></textarea></div>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+        <span class="note">Log in to track your inquiry online.</span>
+      </div>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-cols">
+      <div><h4>A&amp;N Construction and Marble Works</h4><p>Family-owned construction, metal fabrication and marble works. Custom gates designed with you, built by our own fabrication team.</p></div>
+      <div><h4>Quick Links</h4><p><a href="index.html">Home</a><br><a href="services.html">Services</a><br><a href="about.html">About Us</a><br><a href="contact.html">Contact</a></p></div>
+      <div><h4>Contact (sample details)</h4><p>Parañaque City, Metro Manila<br>Phone: +63 9XX XXX XXXX<br>Email: info@anconstruction.example</p></div>
+    </div>
+    <p class="copyright">© 2026 A&amp;N Construction and Marble Works · Prototype design for academic purposes</p>
+  </footer>
+<script src="app.js"></script>
+</body>
+</html>
